@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: crud-config
+data:
+  MODE: "production"
+  PORT: "3000"
